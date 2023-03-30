@@ -11618,7 +11618,7 @@ textarea.form-control-lg {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #000;
   text-decoration: none !important;
 }
@@ -12620,6 +12620,7 @@ body.page-07 .left-sidebar {
   border: 1px solid #fff;
   background-image: url(../../imgs/me.jpg);
   background-size: cover;
+  background-position: center 10%;
   height: 211px;
   width: 250px;
   margin-left: auto;
