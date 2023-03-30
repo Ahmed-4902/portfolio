@@ -1,0 +1,16 @@
+@use "../helpers/index" as *;
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" as *;
+
+section.about {
+	padding-top: 90px;
+	margin-bottom: 90px;
+	overflow: hidden;
+	p {
+		color: #999;
+		line-height: 30px;
+		max-width: 610px;
+		@media (max-width: 1220px) {
+			max-width: 100%;
+		}
+	}
+}

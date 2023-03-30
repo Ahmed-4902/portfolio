@@ -1,0 +1,62 @@
+@use "functions" as *;
+@use "variables" as *;
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" as *;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	color: #000;
+	text-decoration: none !important;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background-color: #1f1f1f;
+	font-size: 16px;
+	scroll-behavior: smooth;
+	color: #999;
+	line-height: 1.7;
+	overflow-x: hidden;
+	// height: 300vh;
+	&.page-07 {
+		background-color: #000;
+	}
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.menu {
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
+	padding: 24px;
+	z-index: 20;
+}
+
+.custom-container {
+	max-width: 1130px;
+	padding: 0 15px;
+	margin: auto;
+	@media (max-width: 1220px) {
+		max-width: 767px;
+	}
+}
+
+.content-width {
+	max-width: 770px;
+	width: 100%;
+	margin-left: auto;
+}
+
+img,
+svg {
+	vertical-align: middle;
+}

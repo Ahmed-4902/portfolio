@@ -1,0 +1,49 @@
+@use "../helpers/index" as *;
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" as *;
+
+section.services {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	overflow: hidden;
+	.services-item {
+		border: 1px solid #565656;
+		border-radius: 20px;
+		transition: 0.3s;
+		position: relative;
+		padding: 44px 48px 41px;
+		margin-bottom: 10px;
+		i {
+			position: absolute;
+			font-size: 30px;
+			color: var(--main-color);
+			top: 45px;
+			right: 50px;
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: 300;
+			margin-bottom: 8px;
+			color: #fff;
+		}
+		p {
+			font-size: 14px;
+			color: #999;
+			margin-bottom: 30px;
+			text-decoration: underline;
+		}
+		span.project {
+			font-size: 12px;
+			color: #fff;
+			text-transform: uppercase;
+			display: inline-block;
+			transition: 0.3s;
+			padding-bottom: 0;
+		}
+		&:hover {
+			border-color: var(--main-color);
+			span.project {
+				text-decoration: underline !important;
+			}
+		}
+	}
+}

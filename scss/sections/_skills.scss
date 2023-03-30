@@ -1,0 +1,45 @@
+@use "../helpers/index" as *;
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" as *;
+
+section.skills {
+   padding-top: 90px;
+   padding-bottom: 40px;
+   overflow: hidden;
+	div.skills {
+		text-align: center;
+		.col-md-3 {
+			@media (max-width: 767px) {
+				width: 50%;
+			}
+		}
+		.skill {
+			margin-bottom: 50px;
+			.inner {
+				border: 2px solid #565656;
+				border-radius: 85px;
+				padding: 54px 0px 48px;
+				margin-bottom: 20px;
+				transition: 0.3s;
+            &:hover {
+               border-color: var(--main-color);
+            }
+				img {
+					display: block;
+					margin: auto auto 29px;
+					max-width: 40%;
+				}
+				h1 {
+					font-size: 30px;
+					color: var(--main-color);
+					font-weight: 300;
+					margin: 0;
+				}
+			}
+			.name {
+				font-size: 14px;
+				color: #fff;
+				margin: 0;
+			}
+		}
+	}
+}
