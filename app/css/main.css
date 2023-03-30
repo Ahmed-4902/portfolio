@@ -12765,7 +12765,7 @@ body.page-07 .left-sidebar {
   width: 0;
   height: 5px;
   border-radius: 6px;
-  background: linear-gradient(to right, transparent, var(--main-color));
+  background: var(--main-color);
 }
 
 body::-webkit-scrollbar {
