@@ -16,6 +16,9 @@ $colors-settings: (
 	left: 0;
 	top: 50px;
 	z-index: 100;
+	@media (max-width: 767px) {
+		top: 100px;
+	}
 
 	.setting-toggle {
 		background-color: #1f1f1f;

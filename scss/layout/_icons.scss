@@ -23,10 +23,13 @@ body.page-07 {
 	cursor: pointer;
 	transition: 0.3s;
 	z-index: 99;
-	// background-color: #000;
 	background-color: #1f1f1f;
 	@media (max-width: 1220px) {
 		position: fixed;
+	}
+	@media(max-width: 767px) {
+		right: 20px;
+		top: 100px;
 	}
 	.bar {
 		display: block;

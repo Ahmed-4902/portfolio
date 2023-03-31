@@ -30,6 +30,10 @@
 		color: #fff;
 		font-weight: 300;
 		margin-bottom: 33px;
+		@media(max-width: 584px) {
+			font-size: 37px;
+			line-height: 1.4;
+		}
 		span {
 			color: var(--main-color);
 		}
