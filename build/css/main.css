@@ -12012,6 +12012,7 @@ section.portfolio h2 a {
 
 section.contact {
   padding-bottom: 300px;
+  min-height: 100vh;
 }
 section.contact .alert {
   display: none;
@@ -12100,7 +12101,6 @@ section.contact .contact-items .contact-item {
   border-radius: 20px;
   transition: 0.3s;
   padding: 10px 48px 41px;
-  margin-top: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12258,6 +12258,11 @@ body.page-07 .icon-menu {
   transition: 0.4s;
   padding: 134px;
 }
+@media (max-width: 767px) {
+  .global-color .inner .global-color-option {
+    padding: 100px 50px;
+  }
+}
 .global-color .inner .global-color-option .close-settings {
   position: absolute;
   right: 20px;
@@ -12357,9 +12362,20 @@ body.page-07 .icon-menu {
   margin-bottom: 0px;
   padding-left: 0px !important;
 }
+@media (max-width: 767px) {
+  .global-color .inner .global-color-option .global-color-option-inner .themes {
+    padding-top: 10px;
+  }
+}
 .global-color .inner .global-color-option .global-color-option-inner .themes li {
   margin-right: 80px;
   margin-bottom: 55px;
+}
+@media (max-width: 767px) {
+  .global-color .inner .global-color-option .global-color-option-inner .themes li {
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
 }
 .global-color .inner .global-color-option .global-color-option-inner .themes li:hover a::before, .global-color .inner .global-color-option .global-color-option-inner .themes li.active a::before {
   opacity: 1;
@@ -12635,6 +12651,11 @@ body.page-07 .left-sidebar {
   line-height: 2;
   font-size: 40px;
 }
+@media (min-width: 1220px) {
+  .left-sidebar .sidebar-header span.logo {
+    font-size: 30px;
+  }
+}
 .left-sidebar .sidebar-header span.logo::after {
   content: "A";
   position: absolute;
@@ -12650,6 +12671,14 @@ body.page-07 .left-sidebar {
   align-items: center;
   top: 10px;
   right: -28px;
+}
+@media (min-width: 1220px) {
+  .left-sidebar .sidebar-header span.logo::after {
+    font-size: 0.8rem;
+    width: 18px;
+    height: 18px;
+    right: -22px;
+  }
 }
 .left-sidebar .img {
   border-radius: 30px;
